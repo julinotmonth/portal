@@ -1,38 +1,2497 @@
-.App {
+@font-face {
+  font-family: Montserrat;
+  src: url(./font/MontserratRegular-BWBEl.ttf);
+}
+
+@font-face {
+  font-family: MontserratBold;
+  src: url(./font/MontserratBold-DOWZd.ttf);
+}
+
+
+.wadah_content_navbar {
+  text-align: center;
+  background-color: #9a1e23;
+}
+
+.margin_kanankiri {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.wadah_navbar {
+  background-color: #000;
+}
+
+.wadah_content_1 .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_content_1 .row .col-xl-8 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_content_1 .row .col-xl-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.link_content_navbar_1 {
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 12px;
+  color: #fff;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+.link_content_navbar_1:hover {
+  text-decoration: underline;
+}
+
+.margin_right_content_navbar_1 {
+  margin-right: 10px;
+}
+
+.link_icon_navbar_1 {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 12px;
+  transition: all .3s;
+}
+
+.link_icon_navbar_1:hover {
+  color: #c00;
+}
+
+.icon_navbar_1 {
+  margin-bottom: -5px;
+}
+
+.wadah_icon_navbar {
+  text-align: right;
+}
+
+.margin_right_content_navbar_2 {
+  margin-right: 5px;
+}
+
+.wadah_content_navbar_2 .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_content_navbar_2 .row .col-xl-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_content_navbar_2 .row .col-xl-9 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_content_navbar_2 .row .col-xl-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.content_img_logo {
+  width: 100%;
+}
+
+.content_link_navbar_2 {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  font-family: MontserratBold;
+  padding: 38px 6.4px;
+  border-bottom: 2px solid #fff;
+  transition: all .3s;
+  font-size: 13px;
+}
+
+.content_link_navbar_2:hover {
+  border-bottom: 2px solid #c00;
+}
+
+.wadah_dropdown {
+  display: inline-block;
+}
+
+.link_dropdown_navbar_2 {
+  padding: 10px 15px !important;
+  border-bottom: 1px solid #dddddd !important;
+}
+
+.dropdown-menu {
+  padding: 0px !important;
+  margin-top: 33px !important;
+  border: none !important;
+  box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15) !important;
+  margin-left: -6px !important;
+}
+
+.dropdown-item {
+  font-family: Montserrat;
+  font-weight: 600;
+  padding: 10px 15px;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #c00 !important;
+  background-color: #f8f9fa !important;
+}
+
+.wadah_link_navbar_2 {
+  margin-left: 35px;
+}
+
+.wadah_navbar_2 {
+  box-shadow: 0 2px 3px rgba(100, 100, 100, 0.1);
+}
+
+.wadah_hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.content_search {
+  display: none;
+}
+
+.content_close_navbar {
+  display: none;
+}
+
+.icon_close_navbar {
+  display: none;
+}
+
+.carousel_1 {
+  width: 100%;
+}
+
+.wadah_carousels {
+  margin-top: 30px;
+}
+
+.wadah_content_banner_2 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wadah_banner_mpr {
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.judul_content_editor {
+  font-size: 20px;
+  font-family: MontserratBold;
+  margin-bottom: 20px;
+}
+
+.wadah_garis_editor {
+  border: 1px solid #eee;
+  width: 100%;
+  background-color: #eee;
+  height: 5px;
+}
+
+.wadah_garis_editor_2 {
+  width: 50px;
+  height: 5px;
+  background-color: #c00;
+}
+
+.content_banner_mpr {
+  width: 80%;
+}
+
+.wadah_pilih_editor {
+  margin-bottom: 20px;
+}
+
+.link_deskripsi_content {
+  text-decoration: none;
+  color: #000;
+  font-family: MontserratBold;
+  font-size: 19px;
+  transition: all .3s;
+}
+
+.link_deskripsi_content:hover {
+  color: #c00;
+}
+
+.wadah_kategori span {
+  font-size: 12px;
+  font-family: Montserrat;
+  color: #c00;
+  font-weight: 600;
+}
+
+.img_content_crousels {
+  width: 100%;
+}
+
+.wadah_content_crousel .row {
+  margin-left: 0  !important;
+  margin-right: 0 !important;
+}
+
+.wadah_content_crousel .row .col-xl-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_content_crousel_2 {
+  margin-right: 20px;
+}
+
+.wadah_content_terkini .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.wadah_content_terkini .row .col-xl-8 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_content_terkini {
+  padding-top: 30px;
+}
+
+.wadah_content_fluid .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_content_fluid .row .col-xl-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_img_fluid_2 {
+  background-image: url(./img/img_fluid_1.webp);
+  width: 100%;
+  height: 232px;
+  object-fit: cover;
+  position: relative;
+}
+
+
+.wadah_deskripsi_fluid {
+  z-index: 0;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  font-family: MontserratBold ;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.link_img_fluid {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: all .3s;
+  font-size: 16px;
+}
+
+.link_img_fluid:hover {
+  color: #c00;
+}
+
+.span_img_fluid {
+  font-size: 12px;
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  font-family: montserrat;
+  margin-top: 5px;
+}
+
+.margin_bottom_editor {
+  margin-bottom: 20px;
+}
+
+.wadah_img_fluid_3 {
+  background-image: url(./img/img_fluid_2.webp);
+  width: 100%;
+  height: 232px;
+  object-fit: cover;
+  position: relative;
+}
+
+.margin_right_wadah_fluid {
+  margin-right: 15px;
+}
+
+.margin_left_wadah_fluid {
+  margin-left: 15px;
+}
+
+.img_content_terkini_col_2 {
+  width: 100%;
+  height: 100%;
+}
+
+.wadah_img_content_terkini_col_2 {
+  height: 100%;
+}
+
+.wadah_content_terkini_col_2 .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_content_terkini_col_2 .row .col-xl-4 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.wadah_content_terkini_col_2 .row .col-xl-8 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.span_deskrip_img_content_terkini_col_2_2 {
+  font-family: MontserratBold;
+  font-size: 14px;
+}
+
+.span_deskrip_img_content_terkini_col_2 {
+  font-size: 12px; 
+  color: #6c757d;
+  display: block;
+  font-family: Montserrat;
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+.link_span_deskrip_img_content_terkini_col_2_2 {
+  color: #000;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.link_span_deskrip_img_content_terkini_col_2_2:hover {
+  color: #c00;
+}
+
+.wadah_deskrip_img_content_terkini_col_2 {
+  padding-left: 8px;
+}
+
+.margin_bottom_wadah_fluid {
+  margin-bottom: 24px;
+}
+
+.margin_bottom_wadah_terkini {
+  margin-bottom: 20px;
+}
+
+
+.content_poster {
+  width: 100%;
+}
+
+.wadah_content_terkini .row .col-xl-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_all_terkini_col_1 {
+  margin-right: 30px;
+}
+
+.wadah_poster {
+  margin-bottom: 24px;
+}
+
+.img_popular {
+  width: 100%;
+  height: 100%;
+}
+
+.link_deskrip_popular {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-family: MontserratBold;
+  transition: all .3s;
+}
+
+.link_deskrip_popular:hover {
+  color: #c00;
+}
+
+.wadah_span_popular_2 span {
+  color: #6c757d;
+  font-size: 12px;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+.wadah_img_populer {
+  height: 100%;
+}
+
+.wadah_deskrip_popular {
+  padding-left: 8px;
+}
+
+
+.margin_bottom_all_img_and_deskrip {
+  margin-bottom: 20px;
+} 
+
+.wadah_img_ibukota {
+  text-align: center;
+}
+
+
+.img_ibukota {
+  width: 80%;
+}
+
+.wadah_ibukota {
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+
+
+.img_politik {
+  width: 100%;
+}
+
+.link_deskrip_politik {
+  text-decoration: none;
+  color: #000;
+  font-family: MontserratBold;
+  font-size: 19px;
+  transition: all .3s;
+}
+
+.link_deskrip_politik:hover {
+  color: #c00;
+}
+
+.wadah_deskrip_politik {
+  padding-top: 10px;
+}
+
+.wadah_span_waktu span {
+  font-size: 12px;
+  color: #6c757d;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+.margin_top_img_deskrip_politik {
+  margin-top: 24px;
+}
+
+.margin_top_editor {
+  margin-top: 24px;
+}
+
+.wadah_all_img_and_deskrip .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.wadah_all_img_and_deskrip .row .col-xl-8 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_all_img_and_deskrip .row .col-xl-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.margin_top_anti_hoax {
+  margin-top: 30px;
+}
+
+.img_anti_hoax {
+  width: 100%;
+}
+
+.tagar_anti_hoax {
+  text-decoration: none;
+  color: #c00;
+  font-size: 13px;
+  font-family: MontserratBold;
+  transition: all .3s;
+}
+
+.tagar_anti_hoax:hover {
+  color: #000;
+}
+
+.wadah_deskrip_anti_hoax a {
+  font-size: 19px;
+  font-family: MontserratBold;
+  color: #000;
+  text-decoration: none;
+}
+
+.waktu_anti_hoax {
+  font-size: 12px;
+  font-family: Montserrat;
+  color: #6c757d;
+  font-weight: 600;
+}
+
+.margin_top_anti_hoax {
+  margin-top: 10px;
+}
+
+.wadah_info_grafik {
+  padding: 30px 0px;
+  background-color: #000;
+}
+
+.heading_infografik {
+  font-size: 24px;
+  font-family: MontserratBold;
+  color: #fff;
+  text-decoration: none;
+  transition: all .3s;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.heading_infografik:hover {
+  color: #c00;
+}
+
+.wadah_poster_infografik .row .col-xl-3 {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.wadah_image_poster {
+  width: 100%;
+}
+
+.margin_top_content_ekonomi {
+  margin-top: 16px;
+}
+
+.margin_bottom_ekonomi {
+  margin-bottom: 20px;
+}
+
+.padding_right_left_content_mata {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.wadah_wadah_content_img_mata {
+  background-image: url(./img/poster_mata_indonesia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.padding_top_content_ekonomi {
+  margin-top: 20px;
+}
+
+.font_color_mata {
+  color: #fff;
+  font-family: MontserratBold;
+  font-size: 14px;
+}
+
+.span_color_mata span {
+  color: #fff;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.margin_top_wadah_content_mata_indonesia {
+  margin-top: 16px;
+}
+
+.padding_bottom_top_content_ekonomi {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.wadah_background_content_antara {
+  background-image: url(./img/background_antara_doeloe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+
+.wadah_background_content_antara_2 {
+  padding: 24px 8px 8px;
+}
+
+.img_content_doeloe {
+  width: 150px;
+  height: 200px;
+}
+
+.wadah_berita_antara {
+  margin-top: 24px;
+  padding: 24px 16px 45px 16px;
+}
+
+.wadah_berita_antara .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.wadah_berita_antara .row .col-xl-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_berita_antara .row .col-xl-8 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.margin_bottom_berita_antara {
+  margin-bottom: 16px;
+}
+
+.wadah_all_content_antara_doeloe {
+  margin-top: 24px;
+}
+
+.wadah_video_metro {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.content_berita_nusantara .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.content_berita_nusantara .row .col-xl-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.content_berita_nusantara .row .col-xl-8 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.link_daerah_indonesia {
+  text-decoration: none;
+  color: #c00;
+  font-family: MontserratBold;
+  font-size: 13px;
+  transition: all .3s;
+}
+
+.link_daerah_indonesia:hover {
+  color: #000;
+}
+
+.img_popular_nusantara {
+  width: 100%;
+  height: 100%;
+}
+
+.margin_bottom_column_nusantara {
+  margin-bottom: 24px;
+}
+
+.wadah_background_carousels {
+  background-color: #000;
+  padding: 30px 0px;
+}
+
+.link_judul_foto {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-family: MontserratBold;
+  transition: all .3s;
+}
+
+.link_judul_foto:hover {
+  color: #c00;
+}
+
+.wadah_judul_foto {
+  margin-bottom: 24px;
+}
+
+.wadah_content_carousel {
+  padding: 30px 0px;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.link_content_carousel {
+  text-decoration: none;
+  color: #fff;
+  font-size: 32px;
+  font-family: MontserratBold;
+}
+
+.margin_top_humaniora {
+  margin-top: 24px;
+}
+
+
+.link_judul_content_humaniora {
+  text-decoration: none;
+  color: #000;
+  font-family: MontserratBold;
+  font-size: 20px;
+  transition: all .3s;
+}
+
+.link_judul_content_humaniora:hover {
+  color: #c00;
+}
+
+.wadah_judul_content_humaniora {
+  margin-bottom: 20px;
+}
+
+.margin_top_tekno {
+  margin-top: 24px;
+}
+
+.wadah_footer {
+  background-color: #000;
+  padding: 40px 0px 0px 0px;
+}
+
+.img_footer {
+  width: 220px;
+}
+
+.wadah_img_footer_and_icon .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_img_footer_and_icon .row .col-xl-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.link_icon_footer {
+  text-decoration: none;
+  color: #fff;
+  padding: 6px;
+  display: inline-block;
+  background-color: #3b5999;
+  border-radius: 4px;
+  line-height: 2px;
+}
+
+.link_icon_footer_whatsapp {
+  text-decoration: none;
+  color: #fff;
+  padding: 6px;
+  display: inline-block;
+  background-color: #25d366;
+  border-radius: 4px;
+  line-height: 2px;
+}
+
+.link_icon_footer_twiter {
+  text-decoration: none;
+  color: #fff;
+  padding: 6px;
+  display: inline-block;
+  background-color: #24a3f1;
+  border-radius: 4px;
+  line-height: 2px;
+}
+
+.link_icon_footer_instagram {
+  text-decoration: none;
+  color: #fff;
+  padding: 6px;
+  display: inline-block;
+  background-color: #d91cac;
+  border-radius: 4px;
+  line-height: 2px;
+}
+
+.link_icon_footer_yotube {
+  text-decoration: none;
+  color: #fff;
+  padding: 6px;
+  display: inline-block;
+  background-color: #c00;
+  border-radius: 4px;
+  line-height: 2px;
+}
+
+.link_icon_footer_tiktok {
+  text-decoration: none;
+  color: #fff;
+  padding: 6px;
+  display: inline-block;
+  background-color: #ff0050;
+  border-radius: 4px;
+  line-height: 2px;
+}
+
+
+.icon_footer {
+  font-size: 24px;
+}
+
+.wadah_img_footer_and_icon_3 {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.background_whatsapp {
+  text-decoration: none;
+  color: #fff;
+  padding: 6px;
+  display: inline-block;
+  background-color: #3b5999;
+  border-radius: 4px;
+  line-height: 2px;
+}
+
+.wadah_all_icon_footer {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.margin_right_footer_and_icon {
+  margin-right: 0;
+}
+
+.content_link_2 {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  font-family: MontserratBold;
+  transition: all .3s;
+}
+
+.content_link_2:hover {
+  color: #c00;
+}
+
+.wadah_img_footer_and_icon .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.wadah_img_footer_and_icon .row .col-xl-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_content_all_link_alll {
+  margin-top: 16px;
+}
+
+.margin_bottom_content_link {
+  margin-bottom: 10px;
+}
+
+.span_copyright_antara {
+  font-size: 12px;
+  font-family: Montserrat;
+  color: #fff;
+  font-weight: 600;
+}
+
+.wadah_copyright_antara {
+  padding: 32px 0px;
+}
+
+.wadah_all_locnow {
+  background-color: #f8f9fa;
+  padding: 15px;
+}
+
+.wadah_locnow {
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+.link_home_antara {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #555;
+  transition: all .3s;
+}
+
+.link_home_antara:hover {
+  color: #c00;
+}
+
+.link_home_antara span {
+  font-size: 14px;
+}
+
+.wadah_icon_home_locnow {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.wadah_icon_arrow_right {
+  display: inline-block;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.icon_arrow_right {
+  font-size: 16px;
+}
+
+.link_politik_now {
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #555;
+  transition: all .3s;
+  text-decoration: none;
+}
+
+.link_politik_now:hover {
+  color: #c00;
+}
+
+.wadah_content_politik_left_2 .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_content_politik_left_2 .row .col-xl-8 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_content_politik_left_2 .row .col-xl-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.img_crousel_content_left {
+  width: 100%;
+}
+
+.margin_top_left_terkini {
+  margin-top: 24px;
+}
+
+.wadah_content_terkini_politik .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_content_terkini_politik .row .col-xl-7 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_content_terkini_politik .row .col-xl-5 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.link_content_deskripsi_politik_2 {
+  color: #000;
+  text-decoration: none;
+  font-family: MontserratBold;
+  font-size: 19px;
+  transition: all .3s;
+}
+
+.link_content_deskripsi_politik_2:hover {
+  color: #c00;
+}
+
+.wadah_span_menit_tayang span {
+  font-size: 12px;
+  font-family: Montserrat;
+  color: #6c757d;
+  font-weight: 600;
+}
+
+.deskripsi_content_deskripsi_politik_2 {
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #555;
+}
+
+.wadah_deskripsi_content_deskripsi_politik_2 {
+  margin-top: 6px;
+}
+
+.img_terkini_politik {
+  width: 100%;
+}
+
+.margin_right_politik_2 {
+  margin-right: 30px;
+}
+
+.margin_bottom_politik_2 {
+  margin-bottom: 30px;
+}
+
+
+.margin_top_politik_left {
+  margin-top: 20px;
+}
+
+.margin_right_politik_left {
+  margin-right: 30px;
+}
+
+.margin_bottom_tekno_all {
+  margin-bottom: 30px;
+}
+
+.wadah_column_kiri .row .col-xl-8 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.judul_berita_h1 {
+  font-size: 32px;
+  font-family: MontserratBold;
+  margin-bottom: 8px;
+}
+
+.span_calendar_content_politik {
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #6c757d;
+}
+
+.icon_calendar_content_politik {
+  color: #6c757d;
+  margin-top: -3px;
+}
+
+.wadah_tanggal_hari_jam {
+  margin-bottom: 16px;
+}
+
+.img_content_berita_politik {
+  width: 100%;
+}
+
+.deskripsi_berita_politik {
+  font-size: 14px;
+  font-family: Montserrat;
+  color: #333;
+}
+
+.wadah_deskripsi_berita_politik {
+  padding: 8px 0px;
+}
+
+.wadah_quotes_berita_politik {
+  padding: 30px 50px 30px 70px;
+  background-color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.span_quotes_berita_politik {
+  font-size: 22px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: italic;
+  color: #555;
+}
+
+.span_deskripsi_berita_1 {
+  font-size: 18px;
+  font-family: Montserrat;
+}
+
+.wadah_deskripsi_berita_1 {
+  margin-bottom: 40px;
+}
+
+.span_baca_juga {
+  font-size: 16px;
+  color: #000;
+  font-family: MontserratBold;
+}
+
+.link_baca_juga {
+  font-size: 16px;
+  color: #2c91c4;
+  font-family: MontserratBold;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.link_baca_juga:hover {
+  color: #c00;
+}
+
+.margin_bottom_baca_juga {
+  margin-bottom: 40px;
+}
+
+.content_name_pewarta {
+  font-size: 13px;
+  font-family: Montserrat;
+  color: #6c757d;
+  font-weight: 600;
+}
+
+.wadah_column_kiri .row .col-xl-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_name_pewarta_editor_copyright {
+  margin-bottom: 15px;
+}
+
+.margin_bottom_content_berita {
+  margin-bottom: 30px;
+}
+
+.content_tanggal_now {
+  font-size: 12px;
+  font-family: Montserrat;
+  color: #dddddd;
+  padding: 10px 0px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.content_search_navbar_2 {
+  font-size: 25px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+}
+
+.margin_top_terpopuler {
+  margin-top: 24px;
+}
+
+.height_tertentu_terkini {
+  height: 350px;
+}
+
+.height_img_politik_terkini {
+  height: 100%;
+}
+
+.margin_top_content_embed_instagram {
+  margin-top: 18px;
+}
+
+.img_poster_anak {
+  width: 100%;
+}
+
+.wadah_content_twiter {
+  margin-top: 20px;
+}
+
+.wadah_content_twiter .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_content_twiter .row .col-xl-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.margin_bottom_twitter {
+  margin-bottom: 20px;
+}
+
+.margin_bottom_content_instagram {
+  margin-bottom: 14px;
+}
+
+.margin_bottom_twitter_tiga {
+  margin-bottom: 20px;
+}
+
+
+.margin_bottom_facebook {
+  margin-bottom: 30px;
+}
+
+.wadah_content_twiter_3 {
+  width: 100%;
+}
+
+.content_twitter_x {
+  width: 100%;
+}
+
+.margin_bottom_twitter_1 {
+  margin-bottom: 20px;
+}
+
+.margin_bottom_twitter_2 {
+  margin-bottom: 20px;
+}
+
+.margin_bottom_twitter_3 {
+  margin-bottom: 20px;
+}
+
+.content_content_hubungi_2 .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.content_content_hubungi_2 .row .col-xl-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.span_hubungi_kami {
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+.judul_hubungi_kami {
+  font-size: 35px;
+  font-family: MontserratBold;
+  display: block;
+}
+
+
+.margin_bottom_hubungi_kami {
+  margin-bottom: 15px;
+}
+
+
+.icon_contact_person {
+  font-size: 16px;
+  color: #000;
+  margin-top: -5px;
+}
+
+.wadah_icon_contact {
+  background-color: #fff;
+  padding: 4px 8px;
+  display: inline-block;
+  border-radius: 100%;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, .13);
+}
+
+.wadah_content_hubungi {
+  background-color: #f8f9fa;
+}
+
+.link_no_ponsel {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000;
+  transition: all .3s;
+}
+
+.link_no_ponsel:hover {
+  color: #bbb;
+}
+
+.wadah_no_ponsel {
+  display: inline-block;
+  margin-left: 8.6px;
+}
+
+
+.margin_top_contact_person {
+  margin-top: 5px;
+}
+
+.wadah_alamat_contact {
+  margin-top: 25px;
+}
+
+.span_judul_alamat_contact {
+  font-size: 25px;
+  font-family: MontserratBold;
+}
+
+.wadah_judul_alamat_contact {
+  margin-bottom: 6px;
+}
+
+.span_alamat_company {
+  display: block;
+}
+
+.span_alamat_company {
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+.icon_medsos {
+  width: 24px;
+  height: 24px;
+}
+
+.margin_right_medsos_contact {
+  margin-right: 10px;
+}
+
+.wadah_icon_medsos_contact {
+  display: inline-block;
+}
+
+.icon_medsos_twitter {
+  width: 24px;
+  height: 24px;
+  border-radius: 5px;
+}
+
+.margin_top_medsos_contacts_1 {
+  margin-top: 18px;
+}
+
+.judul_leave_message {
+  font-size: 30px;
+  font-family: MontserratBold;
+}
+
+.wadah_from_contact_2 {
+  background-color: #fff;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, .11);
+  padding: 15px;
+}
+
+.wadah_leave_message {
+  margin-bottom: 16px;
+}
+
+.content_input_email {
+  padding: 7px 13px;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid silver;
+  font-family: Montserrat;
+  font-size: 13px;
+  width: 221px;
+}
+.content_input_email:focus {
+  border: 1px solid #000;
+}
+
+.margin_bottom_input_email {
+  margin-bottom: 5px;
+}
+
+.content_text_area {
+  width: 100%;
+}
+
+.content_text_area {
+  font-size: 13px;
+  font-family: Montserrat;
+  padding: 7px 13px;
+  outline: none;
+  border: 1px solid silver;
+}
+
+.content_text_area:focus {
+  border: 1px solid #000;
+}
+
+.button_kirim_pesan {
+  padding: 6px 12px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  font-family: Montserrat;
+  font-size: 11px;
+  width: 187px;
+  transition: all .3s
+}
+
+
+.button_kirim_pesan:hover {
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  border: 1px solid silver;
+}
+
+.padding_top_content_hubungi {
+  padding-top: 62px;
+  padding-bottom: 25px;
+}
+
+.content_content_hubungi_2 .row .col-xl-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.content_content_hubungi_2 .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_maps {
+  margin-top: 51px;
+}
+
+.wadah_content_visi_misi_1 .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_content_visi_misi_1 .row .col-xl-8 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.wadah_content_visi_misi_1 .rwo .col-xl-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_contentVisiMisi {
+  background-color: #f7faff !important;
+}
+
+.span_judul_visi {
+  font-size: 30px;
+  font-family: MontserratBold;
+  display: inline-block;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.deskripsi_visi {
+  font-size: 15px;
+  font-family: Montserrat;
+  font-weight: 600;
+  text-align: justify;
+  color: #000;
+}
+
+.padding_15px_visimisi {
+  padding: 0px 15px;
+}
+
+.border_left_visimisi {
+  border-left: 1px solid #e7eaf3;
+}
+
+.border_bottom_visimisi {
+  border-bottom: 1px solid #e7eaf3;
+}
+
+.margin_top_visimisi {
+  margin-top: 20px;
+}
+
+.content_img_visi_misi {
+  width: 100%;
+}
+
+.margin_bottom_wadah_content_visi_misi_1 {
+  margin-bottom: 40px;
+}
+
+
+.wadah_content_visi_misi_1 {
+  padding-top: 20px;
+}
+
+
+
+.img_struktur_organisasi {
+  width: 100%;
+}
+
+.margin_bottom_img_struktur {
+  margin-bottom: 40px;
+}
+
+.wadah_content_profil_kepala_2 .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_content_profil_kepala_2 .row .col-xl-6{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.heading_profil_pejabat {
+  font-size: 17px;
+  font-family: MontserratBold;
+  color: #c00;
+  display: inline-block;
+}
+
+.span_garis_biodata {
+  width: 50px;
+  border-bottom: 3px solid #c00;
+  display: inline-block;
+  margin-right: 16px;
+  margin-bottom: 4px;
+}
+
+.heading_kepala_biro_1 {
+  font-size: 38px;
+  font-family: MontserratBold;
+  margin-bottom: 0;
+}
+
+.heading_kepala_biro_2 {
+  font-size: 30px;
+  font-family: MontserratBold;
+}
+
+.margin_bottom_wadah_bioadata_dan_tugas {
+  margin-bottom: 8px;
+}
+
+.span_sekretariat_daearah {
+  font-size: 17px;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #777;
+}
+
+.wadah_sekretariat_daerah {
+  margin-bottom: 24px;
+}
+
+.wadah_table_body {
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+
+.wadah_table_body td {
+  padding: 8px;
+}
+
+.border_column_table {
+  border: 0.666667px solid rgb(222, 226, 230);
+}
+
+.last_padding_column {
+  padding: 8px 0px !important;
+}
+
+.wadah_table_biodata {
+  width: 100%;
+}
+
+.margin_bottom_table_biodata {
+  margin-bottom: 20px;
+}
+
+.span_tugas_deskripsi {
+  font-size: 15px;
+  font-family: MontserratBold;
+  color: #777;
+}
+
+.paragraf_tugas_deskripsi {
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #777;
+  text-align: justify;
+  line-height: 26px;
+}
+
+.img_content_2 {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.margin_left_wadah_column_img_1 {
+  margin-left: 100px;
+}
+
+.margin_bottom_video_column {
+  margin-bottom: 21px;
+}
+
+.margin_bottom_video_column_2 {
+  margin-bottom: 21px;
+}
+
+.margin_bottom_video_column_3 {
+  margin-bottom: 21px;
+}
+
+.margin_bottom_kumpulan_video {
+  margin-bottom: 24px;
+}
+
+.margin_top_deskrip_politik_1 {
+  margin-top: 24px;
+}
+
+.margin_top_deskrip_politik_2 {
+  margin-top: 24px;
+}
+
+.margin_top_deskrip_politik_3 {
+  margin-top: 24px;
+}
+
+.margin_top_deskrip_politik_4 {
+  margin-top: 24px;
+}
+
+/* .margin_bottom_wadah_component_berita {
+  margin-bottom: 20px;
+} */
+
+.wadah_sidebar .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_sidebar .row .col-xl-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.margin_bottom_wadah_content_crousels {
+  margin-bottom: 20px;
+}
+
+.margin_top_wadah_paling_banyak {
+  margin-top: 20px;
+}
+
+.wadah_icon_like {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #000;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.wadah_icon_like:hover {
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.icon_like {
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 7px;
+  color: #fff;
+}
+
+.total_like {
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #fff;
+}
+
+.wadah_icon_dislike {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #000;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.wadah_icon_dislike:hover {
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.icon_dislike {
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 7px;
+  color: #fff;
+  fill: #fff;
+}
+
+.total_dislike {
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #fff;
+}
+
+
+.margin_bottom_wadah_button_like_dislike {
+  margin-bottom: 24px;
+}
+
+
+.margin_bottom_row_berita_data {
+  margin-bottom: 24px;
+}
+
+.margin_bottom_politik {
+  margin-bottom: 20px;
+}
+
+
+.margin_bottom_wadah_berita {
+  margin-bottom: 24px;
+}
+
+.margin_right_icon_calendar_content_politik {
+  margin-right: 5px;
+}
+
+.input_search_navbar {
+  padding: 10px;
+  font-family: Montserrat;
+  border: 1px solid #ced4da !important;
+  width: 90%;
+}
+
+.input_search_navbar:focus {
+  outline: none; 
+}
+
+
+/* Default state, elemen disembunyikan */
+.wadah_content_input_search {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+}
+
+/* State saat elemen visible */
+.wadah_content_input_search.show {
+  max-height: 200px; /* Sesuaikan dengan tinggi maksimal elemen */
+}
+
+
+.wadah_not_found {
+  height: 100vh;
+}
+
+.bg-lightt {
+  background-color: #F0FF79;
+}
+
+.bg-darkk {
+  background-color: #000c2f;
+}
+
+.wadah_button_and_thelight {
+  padding-top: 70px;
+  margin-bottom: 50px;
+}
+
+.wadah_turn_on_the_light {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.color-blackk {
+  color: #000;
+}
+
+.span_the_light {
+  display: block;
+}
+
+.wadah_button_dark_or_light {
+  position: absolute;
+  top: 0;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.switcherr {
+  position: absolute;
+  left: 0;
+  margin-top: 21px;
+  margin-left: 65px;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.switcher-on {
+  margin-left: 120px;
+}
+
+.wadah_img_notfound {
+  text-align: center;
+}
+
+.img_not_found_dark {
+  width: 55%;
+}
+
+.wadah_content_laporan_all .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_content_laporan_all .row .col-xl-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.margin_left_user {
+  margin-left: 240px;
+}
+
+.icon_user_dashboard {
+  font-size: 15px;
+}
+
+
+.condawal_none {
+  display: none;
+}
+
+
+.content_menu_dash_2 {
+  margin-top: 30px !important;
+  font-family: Montserrat;
+}
+
+.fontsizebold {
+  font-family: MontserratBold;
+}
+
+.margin_top_component_berita {
+  margin-top: 30px;
+}
+
+.wadah_content_dashboard_edit_delete .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_content_dashboard_edit_delete .row .col-xl-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.width_button_edit {
+  width: 100%;
+}
+
+.margin_right_wadah_button {
+  margin-right: 5px;
+}
+
+.margin_left_wadah_button {
+  margin-left: 5px;
+}
+
+.wadah_content_dashboard_edit_delete {
+  margin-top: 10px;
+  font-family: Montserrat;
+}
+
+.wadah_content_dashboarddd .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wadah_content_dashboarddd .row .col-xl-11 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wadah_content_dashboarddd .row .col-xl-1 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.width_button_send {
+  width: 100%;
+}
+
+.wadah_content_menu_dash {
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Animasi untuk transisi carousel dari kiri */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Ketika class "slide-in" ditambahkan, animasi akan dimulai */
+.wadah_carousels.slide-in {
+  animation: slideInFromLeft 1s ease-out forwards;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* Animasi untuk transisi carousel dari kiri */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+/* Ketika class "slide-in" ditambahkan, animasi akan dimulai */
+.wadah_content_politik_2.slide-in {
+  animation: slideInFromLeft 1s ease-out forwards;
+}
+
+
+/* Animasi untuk transisi carousel dari kiri */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .wadah_content_1 {
+    display: none;
+  }
+
+  .content_img_logo {
+    margin-top: 20px;
+  }
+  
+}
+
+@media screen and (max-width: 992px) {
+  .wadah_link_navbar_2 {
+    display: block;
+    padding: 60px 25px 25px;
+    margin: 0;
+  }
+
+  /* .wadah_content_close_navbar {
+    border: 1px solid red;
+  } */
+
+  .content_link_navbar_2 {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .content_img_logo {
+    margin-top: 0px;
+  }
+
+  .wadah_content_navbar_2 {
+    padding: 10px 0px;
+  }
+
+  .wadah_hamburger_1 {
+    text-align: right;
+  }
+
+  .wadah_hamburger {
+    display: inline-block;
+    padding: 12px 15px;
+    box-shadow: 0 2px 3px rgba(100, 100, 100, 0.1);
+  }
+  
+  .content_hamburger {
+    font-size: 16px;
+  }
+
+  .wadah_icon_close_navbar_2 {
+    display: block;
+  }
+
+  .content_search {
+    width: 100%;
+    display: block;
+    background-color: #eee;
+    padding: 11px 15px 10px 35px;
+    border-radius: 70px;
+    border: none;
+    font-family: Montserrat;
+    font-size: 13px;
+  }
+
+  .content_search:focus {
+    outline: none;
+  }
+
+  .content_close_navbar {
+    display: inline-block;
+  }
+
+  .wadah_icon_close_navbar {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    right: -200%;
+    background-color: #fff;
+    transition: right 0.3s ease;
+    top: 0;
+    box-shadow: -6px 0 20px 5px rgba(0,0,0,.1);
+    z-index: 9999;
+
+  }
+
+  .icon_close_navbar {
+    display: inline-block;
+    font-size: 26px;
+  }
+
+  .wadah_icon_close_navbar_2 {
+    text-align: right;
+  }
+
+  .wadah_icon_close_navbar_3 {
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 22px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px rgba(100, 100, 100, 0.1);
+  }
+
+  .wadah_icon_close_navbar_close {
+    right: 0;
+  }
+
+  .display_none_crousel {
+    display: none;
+  }
+
+  .margin_bottom_content_humaniora {
+    margin-bottom: 24px;
+  }
+
+  .margin_right_politik_left {
+    margin-right: 0px;
+  }
+
+  .margin_bottom_footer {
+    margin-bottom: 30px;
+  }
+
+  .margin_bottom_tekno_all {
+    margin-bottom: 30px;
+  }
+
+  .display_none_content_search {
+    display: none;
+  }
+
+  .margin_top_sidebar_terkini {
+    margin-top: 20px;
+  }
+  
+  .margin_bottom_twitter {
+    margin-bottom: 30px;
+  }
+
+  .margin_right_twitter {
+    margin-right: 15px;
+  }
+
+  .margin_left_twitter {
+    margin-left: 15px;
+  }
+
+  .margin_bottom_twitter_tiga {
+    margin-bottom: 0px;
+  }
+
+  .margin_bottom_yt_akhir {
+    margin-bottom: 24px;
+  }
+
+  .margin_right_1 {
+    padding-right: 15px;
+  }
+
+  .margin_left_2 {
+    padding-left: 15px;
+  }
+
+  .margin_right_3 {
+    padding-right: 15px;
+  }
+
+  .margin_left_4 {
+    padding-left: 15px;
+  }
+
+  .margin_bottom_twitter_1 {
+    margin-bottom: 30px;
+  }
+  
+  .margin_bottom_twitter_2 {
+    margin-bottom: 30px;
+  }
+  
+  .margin_bottom_twitter_3 {
+    margin-bottom: 0px;
+  }
+
+  .wadah_all_icon_footer {
+    text-align: center;
+  }
+
+  .border_top_link_footer {
+    border-top: 3px solid #fff;
+  }
+
+  .border_bottom_link_footer {
+    border-bottom: 3px solid #fff;
+  }
+
+    .wadah_copyright_antara {
+    text-align: center;
+  }
+
+  .margin_left_wadah_column_img_1 {
+    margin-left: 0px;
+  }
+
+  
+  .margin_bottom_wadah_profil_kepala {
+    margin-bottom: 24px;
+  }
+
+  .margin_bottom_deskrip_politik_1 {
+    margin-bottom: 24px;
+  }
+
+  .margin_bottom_deskrip_politik_2 {
+    margin-bottom: 24px;
+  }
+
+  .margin_top_heading_terpopuler {
+    margin-top: 24px;
+  }
+
+  .margin_right_wadah_content_crousels_1 {
+    margin-right: 15px;
+  }
+
+  .margin_left_wadah_content_crousels_2 {
+    margin-left: 15px;
+  }
+
+  .margin_right_wadah_content_crousels_3 {
+    margin-right: 15px;
+  }
+
+  .margin_left_wadah_content_crousels_4 {
+    margin-left: 15px;
+  }
+
+  .margin_right_wadah_content_crousels_5 {
+    margin-right: 15px;
+  }
+
+  .margin_left_wadah_content_crousels_6  {
+    margin-left: 15px;
+  }
+
+  .display_none_wadah_content_crousels_md {
+    display: none;
+  }
+
+ .margin_right_wadah_paling_banyak_1 {
+  margin-right: 15px;
+ }
+
+ .margin_left_wadah_paling_banyak_2 {
+  margin-left: 15px;
+ }
+
+ .margin_right_wadah_paling_banyak_3 {
+  margin-right: 15px;
+ }
+
+ .display_column_parag_4 {
+  display: none;
+ }
+
+ .display_column_parag_3 {
+  display: none;
+ }
+
+ .display_none_search {
+  display: none;
+ }
+
+ .margin_right_user_icon {
+  margin-right: 10px;
+ }
+ 
+ .condawal_none {
+  display: inline-block;
+}
+  
+}
+
+
+@media screen and (max-width: 767px) {
+  .display_none_crousel_2 {
+    display: none;
+  }
+
+  .margin_right_wadah_fluid {
+    margin-right: 0;
+  }
+
+  .margin_left_wadah_fluid {
+    margin-left: 0;
+  }
+
+  .wadah_img_fluid_3 {
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .wadah_img_fluid_2 {
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .margin_top_sidebar {
+    margin-top: 16px;
+  }
+
+  .margin_right_img_deskrip_politik {
+    margin-right: 0;
+  }
+
+  .margin_left_img_deskrip_politik {
+    margin-left: 0;
+  }
+
+  .margin_top_wadah_img_deskrip_politik {
+    margin-top: 24px;
+  }
+
+  .padding_bottom_infografik {
+    padding-bottom: 15px;
+  }
+
+  .padding_top_infografik {
+    padding-top: 15px;
+  }
+  
+  .margin_top_wadah_content_mata_indonesia {
+    margin-top: 0px;
+  }
+  
+  .margin_bottom_content_humaniora_sm {
+    margin-bottom: 24px;
+  }
+
+  .margin_top_olahraga {
+    margin-top: 24px;
+  }
+
+  .margin_top_tekno {
+    margin-top: 0px;
+  }
+
+
+
+  .wadah_all_terkini_col_1 {
+    margin-right: 0;
+  }
+  
+  .margin_right_politik_2 {
+    margin-right: 0;
+  }
+
+  .margin_bottom_politik_2 {
+    margin-bottom: 20px;
+  } 
+
+  .margin_left_facebook {
+    margin-left: 0px;
+  }
+  
+  .margin_right_facebook {
+    margin-right: 0px;
+  }
+
+  .margin_bottom_facebook_767 {
+    margin-bottom: 30px;
+  }
+
+  .margin_top_content_embed_instagram_767 {
+    margin-top: 18px;
+  }
+
+  .margin_bottom_last_icon {
+    margin-bottom: 25px;
+  }
+
+  .padding_top_visimisi_1 {
+    padding-top: 20px;
+  }
+
+  .margin_bottom_video_column_4 {
+    margin-bottom: 21px;
+  }
+
+  .margin_bottom_video_column_5 {
+    margin-bottom: 21px;
+  }
+
+  .margin_bottom_deskrip_politik_3 {
+    margin-bottom: 24px;
+  }
+
+  .margin_right_wadah_content_crousels_1 {
+    margin-right: 0px;
+  }
+
+  .margin_left_wadah_content_crousels_2 {
+    margin-left: 0px;
+  }
+
+  .margin_right_wadah_content_crousels_3 {
+    margin-right: 0px;
+  }
+
+  .margin_left_wadah_content_crousels_4 {
+    margin-left: 0px;
+  }
+
+  .margin_right_wadah_content_crousels_5 {
+    margin-right: 0px;
+  }
+
+  .margin_left_wadah_content_crousels_6  {
+    margin-left: 0px;
+  }
+
+  .margin_right_wadah_paling_banyak_1 {
+    margin-right: 0px;
+   }
+  
+   .margin_left_wadah_paling_banyak_2 {
+    margin-left: 0px;
+   }
+  
+   .margin_right_wadah_paling_banyak_3 {
+    margin-right: 0px;
+   }
+
+   .display_column_parag_2 {
+    display: none;
+   }
+
+  
+
+}
+
+@media screen and (max-width: 576px) {
+  .padding_top_infografik_sm {
+    padding-top: 15px;
+  }
+
+  .padding_bottom_infografik_sm {
+    padding-bottom: 15px;
+  }
+
+  .margin_right_1 {
+    padding-right: 0px;
+  }
+
+  .margin_left_2 {
+    padding-left: 0px;
+  }
+
+  .margin_right_3 {
+    padding-right: 0px;
+  }
+
+  .margin_left_4 {
+    padding-left: 0px;
+  }
+
+  .margin_bottom_twitter_3 {
+    margin-bottom: 30px;
+  }
+
+
+
+} 
+
+
